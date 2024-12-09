@@ -1,0 +1,113 @@
+*{
+  margin: 0
+}
+
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #CCFFCC;
+    }
+  .header {
+  background-color: #66FF66;
+  box-shadow: 0 5px 10px #333;
+  }
+  .naxv{
+    text-align: center;
+  }
+  .head {
+      background: #66FF66;
+      color: black ;
+      padding: 10px 20px;
+      text-align: center;
+
+    font-family: "Big Shoulders Inline Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    }
+    nav a:hover{
+      border-radius: 25%;
+      background-color:#CCFFCC;
+    }
+    /* .button{
+      background-color: #66FF66;
+      color: #66FFB2;
+      padding: 10px 20px;
+    } */
+  nav {
+      margin: 20px 0;
+      }
+  nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+  }
+  .content {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      unicode-bidi: isolate;
+      border: 5px double black;
+      background: #fc3;
+      padding: 10px;
+      padding: 20px;
+      background: #fff;
+      margin: 0 20px;
+      border-radius: 10px;
+      margin: 10px;
+      box-shadow: 0 5px 10px #333;
+           }
+  footer {
+
+        text-align: center;
+        padding: 10px 0;
+        background: #66FF66;
+        color: #fff;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 5px 10px #333;
+         }
+    .logo{
+      margin-left: 10px;
+      /* margin-top: 10px; */
+    position: relative;
+    float: left;
+    width:  55px;
+    height: 55px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+    }
+    .logo:hover{
+        transform: scale(1.2);
+      }
+    .cont{
+      width:  20px;
+      height: 20px;
+    }
+
+    .welcome-container {
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 2s ease-out forwards;
+    }
+
+    #welcome-text {
+      font-size: 2.5rem;
+      color: #333;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
